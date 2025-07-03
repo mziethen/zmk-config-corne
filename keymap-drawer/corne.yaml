@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, LSHFT, LCTRL, SYMBOLS, ENTER, SPACE,
+  BASE: [ESC, Q, W, E, R, T, Z, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Y, X, C, V, B, N, M, ',', ., /, LSHFT, LCTRL, SYMBOLS, ENTER, SPACE,
     NAV, LGUI]
   SYMBOLS:
   - {t: ▽, type: trans}
@@ -119,10 +119,10 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - RGB TOG
+  - RGB ON
   - RGB BRD
-  - RGB BRD
-  - {t: ▽, type: trans}
+  - RGB BRI
+  - RGB OFF
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

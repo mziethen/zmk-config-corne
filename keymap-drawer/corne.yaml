@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [ESC, Q, W, E, R, T, Y, U, I, O, P, '-', TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, LSHFT, LCTRL, NAV, ENTER, SPACE,
+  BASE: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, LSHFT, LCTRL, NAV, ENTER, SPACE,
     SYMBOLS, LGUI]
   SYMBOLS:
   - {t: ▽, type: trans}
@@ -52,10 +52,10 @@ layers:
   - Sft+TAB
   - TAB
   - Gui+]
-  - Alt+LEFT
-  - Alt+DOWN
-  - Alt+UP
-  - Alt+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ESC
@@ -64,22 +64,22 @@ layers:
   - SCROLL DOWN
   - SCROLL UP
   - {t: ▽, type: trans}
-  - LEFT
+  - {t: ▽, type: trans}
   - DOWN
   - UP
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bl BL_OFF'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - PG DN
   - PG UP
   - END
-  - Gui+LEFT
-  - Gui+DOWN
-  - Gui+UP
-  - Gui+RIGHT
+  - AltGr+Q
+  - AltGr+Y
+  - Gui+AltGr+P
+  - AltGr+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,9 +119,9 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB TOG
+  - RGB BRD
+  - RGB BRD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

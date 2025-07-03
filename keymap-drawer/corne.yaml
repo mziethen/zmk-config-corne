@@ -78,7 +78,7 @@ layers:
   - END
   - AltGr+Q
   - AltGr+Y
-  - Gui+AltGr+P
+  - AltGr+P
   - AltGr+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

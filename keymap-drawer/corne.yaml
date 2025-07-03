@@ -1,48 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE:
-  - {t: TAB, h: Ctl+Sft+LALT}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '-'
-  - LSHIFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LEFT CONTROL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LEFT ALT
-  - LEFT GUI
-  - NAV
-  - BSPC
-  - SPACE
-  - SYMBOLS
-  - ENTER
+  BASE: [ESC, Q, W, E, R, T, Y, U, I, O, P, '-', TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, LSHFT, LCTRL, NAV, ENTER, SPACE,
+    SYMBOLS, LGUI]
   SYMBOLS:
   - {t: ▽, type: trans}
   - '1'
@@ -69,11 +28,11 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - '~'
-  - '|'
   - '='
-  - +
+  - '-'
+  - '|'
+  - '{'
+  - '}'
   - '['
   - ']'
   - '{'
@@ -111,7 +70,7 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bl BL_OFF'
   - {t: ▽, type: trans}
   - HOME
   - PG DN

@@ -66,7 +66,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DOWN
-  - UP
+  - DOWN ARROW
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

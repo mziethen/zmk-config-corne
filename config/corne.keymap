@@ -98,7 +98,7 @@
             bindings = <
 &kp LG(LC(TAB))  &trans  &kp LG(LEFT_BRACKET)  &kp LS(TAB)        &kp TAB          &kp LG(RIGHT_BRACKET)    &trans             &trans     &kp UP          &trans     &trans  &trans
 &kp ESC          &trans  &trans                &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &trans                   &trans             &kp DOWN   &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&trans           &trans  &kp HOME              &kp PG_DN          &kp PG_UP        &kp END                  &kp RA(Q)          &kp RA(Y)  &kp LG(RA(P))   &kp RA(S)  &trans  &trans
+&trans           &trans  &kp HOME              &kp PG_DN          &kp PG_UP        &kp END                  &kp RA(Q)          &kp RA(Y)  &kp RA(P)       &kp RA(S)  &trans  &trans
                                                &trans             &trans           &trans                   &kp LC(LG(SPACE))  &trans     &trans
             >;
         };

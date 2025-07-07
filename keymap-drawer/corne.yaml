@@ -65,7 +65,7 @@ layers:
   - SCROLL UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DOWN
+  - LEFT ARROW
   - DOWN ARROW
   - RIGHT
   - {t: ▽, type: trans}
